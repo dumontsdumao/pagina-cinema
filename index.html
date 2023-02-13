@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="imagens/icon/favicon.ico">
+    <title>Cinemas Premiere</title>
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+
+    <!--Header-->
+    <nav class="navbar navbar-expand-lg p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><img src="imagens/Meu projeto.png" alt="" id="icone"> Cinemas
+                Premiere</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+            </button>
+            <div class="d-flex justify-content-end">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ajuda
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li><a class="dropdown-item" href="#">Perguntas Frequentes</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#" style="padding-left: 40px;">Entrar</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+
+    <!--Section-->
+    <div id="carouselExampleCaptions" class="carousel slide bg-dark" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="transition: 0.8s;">
+                <img src="imagens/john wick 4.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">John Wick 4</h5>
+                    <p id="sinopse">John Wick (Keanu Reeves) enfrenta seus adversários mais letais até agora na quarta
+                        parte da
+                        série. Com o preço por sua cabeça cada vez maior, Wick leva sua luta contra a High Table de
+                        forma global, enquanto procura as pessoas mais poderosas do submundo, de Nova York a Paris, de
+                        Osaka a Berlim.</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="transition: 0.8s;">
+                <img src="imagens/avatar.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">Avatar 2</h5>
+                    <p id="sinopse">Jake Sully vive com sua nova família formada no planeta
+                        Pandora. Uma vez que
+                        uma ameaça familiar
+                        retorna para terminar o que foi iniciado anteriormente, Jake deve trabalhar com Neytiri e o
+                        exército da raça Na'vi para proteger seu planeta</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="transition: 0.8s;">
+                <img src="imagens/Fredie mercury.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">Bohemian Rhapsody</h5>
+                    <p id="sinopse">Freddie Mercury, Brian May, Roger Taylor e John Deacon formam a banda de rock Queen
+                        em 1970. Quando o estilo de vida agitado de Mercury começa a sair de controle, o grupo precisa
+                        encontrar uma forma de lidar com o sucesso e os excessos de seu líder.</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="transition: 0.8s;">
+                <img src="imagens/Top gun.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">Top Gun: Maverick
+                    </h5>
+                    <p id="sinopse">Depois de mais de 30 anos de serviço como um dos principais aviadores da Marinha,
+                        Pete "Maverick" Mitchell está de volta, rompendo os limites como um piloto de testes corajoso.
+                        No mundo contemporâneo das guerras tecnológicas, Maverick enfrenta drones e prova que o fator
+                        humano ainda é essencial.</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="transition: 0.8s;">
+                <img src="imagens/adao negro.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">Adão Negro</h5>
+                    <p id="sinopse">O poderoso Adão Negro é libertado de sua tumba para lançar sua justiça cruel sob a
+                        Terra.</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+            <div class="carousel-item" style="transition: 0.8s;">
+                <img src="imagens/wakannda.jpg" id="slide" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="fundo">
+                    <h5 id="titulo">Black Panther: Wakanda Forever</h5>
+                    <p id="sinopse">Em Wakanda, a Rainha Ramonda, Shuri, M'Baku, Okoye e as Dora Milaje lutam para
+                        proteger a sua nação de potências mundiais, na sequência da morte do rei T'Challa. Enquanto os
+                        Wakandianos se esforçam para abraçar o próximo capítulo, os heróis unem-se com a ajuda de War
+                        Dog Nakia e Everett Ross para descobrirem um novo caminho para o reino de Wakanda. Um filme de
+                        Ryan Coogler.</p>
+                    <button style="transition: 0.5s;" type="button" class="btn btn-outline-light">Comprar
+                        Ingresso</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Section-->
+    <!--Galeria de imagens-->
+    <div style="background-color:#646881;">
+        <div class="container">
+            <div class="row">
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="./imagens/john wick 4.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca">John Wick (Keanu Reeves) enfrenta seus adversários
+                                mais letais até agora na quarta
+                                parte da
+                                série. Com o preço por sua cabeça cada vez maior, Wick leva sua luta contra a High Table
+                                de
+                                forma global.</p>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px ;">???</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="./imagens/avatar.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca">Jake Sully vive com sua nova família formada no
+                                planeta
+                                Pandora. Uma vez que
+                                uma ameaça familiar
+                                retorna, Jake deve trabalhar com Neytiri
+                                e o
+                                exército da raça Na'vi para proteger seu planeta</p>
+                            <br>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px ;">???</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="imagens/Fredie mercury.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca"> Freddie Mercury, o vocalista da banda Queen, está em
+                                ascensão meteórica através de suas canções icônicas e sonoridade revolucionária.</p>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px ;">2h 14m</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="./imagens/Top gun.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca">Depois de mais de 30 anos de serviço como um dos
+                                principais aviadores da Marinha,
+                                Pete "Maverick" Mitchell está de volta, rompendo os limites como um piloto de testes
+                                corajoso.
+                            </p>
+                            <br>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px ;">2h 11m</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="./imagens/adao negro.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca">O poderoso Adão Negro é libertado de sua tumba para
+                                lançar sua justiça cruel sob a
+                                Terra.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px;">2h 5m</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col p-4">
+                    <div class="card" style="width: 20rem;height: 26rem; background-color: black;">
+                        <img src="imagens/wakannda.jpg" class="card-img-top" alt="image thumbnail">
+                        <div class="card-body">
+                            <p class="card-text" id="letrabranca">Em Wakanda, a Rainha Ramonda, Shuri, M'Baku, Okoye e
+                                as Dora Milaje lutam para
+                                proteger a sua nação de potências mundiais, na sequência da morte do rei T'Challa.
+                            </p>
+                            <button type="button" class="btn btn-outline-light">Horários</button>
+                            <button type="button" class="btn btn-outline-light">Detalhes</button>
+                            <p class="text-muted" style="margin-left:230px;">2h 41m</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!--Galeria de imagens-->
+
+    <!--Section logo-->
+    <h1 style="text-align:center; background-color: #646881; margin-bottom:0px; color: black;">
+        PRODUTORAS
+    </h1>
+    <div style="    background-color: #646881;   ">
+        <div id="logo">
+            <img src="./imagens/logo dc.jpg" alt="" id="logo1">
+            <img src="./imagens/marvelred.png" alt="" id="logo1">
+            <img src="./imagens/fox.png" alt="" id="logo1">
+            <img src="./imagens/lionsgate.png" alt="" id="logo1">
+            <img src="./imagens/paramount.png   " alt="" id="logo1">
+
+        </div>
+    </div>
+    <!--Section logo-->
+
+    <!--Footer-->
+    <footer class=" pt-4 pb-3">
+
+        <div class="container text-center text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold" style="color:#646881;">CINEMAS PREMIER BARREIRAS
+                    </h5>
+                    <p style="color: #fff ;">Filme, pipoca e muita diversão!
+                        <br>
+                        O seu melhor lazer, Venda de ingressos on-line disponível. Não fique de fora!
+                    </p>
+                    <p> <a id="linki"
+                            href="https://cinesis.net.br/App/Bilheteria/Cartaz?idCidade=82b3f629-8112-4c3b-b6f0-013d448a56cb&idEmpresa=f8449f85-64f0-4927-b192-49c84aca658b"
+                            target="_blank">Site Antigo</a></p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold" style="color:#646881;">contato</h5>
+                    <p>
+                        <i class="fas-fa-home mr-3" id="letrabranca"> Rua das Turbinas, 1562, Bela Vista
+                            <br>
+                            Barreiras - BA
+                        </i>
+                    </p>
+
+                    <p id="letrabranca">
+                        CNPJ: 40.311.942/0001-05
+                    </p>
+                    <p id="letrabranca">
+                        Copyright © CineSis.
+                        <br>
+                        Todos os direitos reservados.
+                        <br>
+
+                    </p>
+                    <p>
+                        <i class="fas-fa-envelope mr-3" id="letrabranca"> <a href="mailto:cinesis@cinesis.net.br"
+                                id="linki">
+                                <strong> cinesis@cinesis.net.br </strong>
+                            </a>
+                        </i>
+                    </p>
+
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div style="text-align: center;">
+                <div>
+                    <p>
+                        <a href="#" style="text-decoration:none;"> <strong style="color:#646881;">
+                                Cinemas Premiere
+                            </strong></a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!--Footer-->
+
+</body>
+
+</html>
